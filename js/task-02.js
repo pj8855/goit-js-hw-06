@@ -24,6 +24,4 @@ const ingList = ingredients.map((ingredient) => {
 
 const addList = document.querySelector('ul#ingredients');
 
-addList.appendChild(...ingList);
-
-console.log(ingList);
+addList.append(...ingList);
